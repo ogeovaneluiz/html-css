@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+body{
+    font: 20px montserrat;
+    background-color: blueviolet;
+    color: aliceblue;
+}
+
+h1#principal{
+    color: aqua;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tamanhos imagens:</h1>
+    <p>300x300(Usada para celular)</p>
+    <p>700x700(tablet)</p>
+    <p>1000x1000(pc e tv)</p>
+    <picture>
+        <source media="(max-width:700px)" srcset="M.png">
+        <source media="(max-width:300px)" srcset="p.png">
+        <img src="g.png" alt="imagem g">
+    </picture>
+    <h1>Reproduzindo audio</h1>
+    <audio src="media/wl_completion_sound.13a69e47a3545eb5ac81.mp3" controls></audio><!--para colocar audio-->
+
+    <h1>Reproduzindo video no meu servidor</h1>
+    <video src="media/GHOST TOWN MEME.mp4" width="720px" controls autoplay loop poster="imagens/hqdefault.jpg"></video>
+
+    <h1>Como colocar video do youtube</h1>
+    <p>Só ir no youtube depois compartilhar e incorporar(usar em caso de material publico, caso contrario uso o vimeo)</p>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/SM2LK5AMhyk?si=UXeCy7Row8MXM6pM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</body>
+</html>

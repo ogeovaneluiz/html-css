@@ -1,0 +1,39 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Tac+One&display=swap');
+
+body{
+    
+    background-image: linear-gradient(to right, #a501f7, #750ba9);
+    height: 100%;
+
+}
+
+main{
+    font-family: 'Montserrat' ;
+    background-color: antiquewhite;
+    width: 600px;
+    padding: 30px;
+    border-radius: 20px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.194);
+
+}
+h1#principal{
+    color: rgb(255, 255, 255);
+    background-color: #a501f7;
+}
+h1{
+    color: #a501f7;
+}
+.basico{
+    color: rgb(255, 202, 10);
+
+}
+.intermediario{
+    color: chocolate;
+}
+.avancado{
+    color: deeppink;
+
+}

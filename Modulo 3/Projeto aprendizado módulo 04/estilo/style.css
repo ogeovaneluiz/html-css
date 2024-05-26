@@ -1,0 +1,79 @@
+@charset "UFT-8";
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+html, body{
+    background-color: #f2f2f2;
+    min-height: 100vh;
+    font-family: montserrat;  
+
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 25px;
+    padding-left: 40px;
+}
+section#imagem1 {
+    background-image: url(https://edocbrasil.com.br/wp-content/uploads/2023/08/OIG._0t2CSjFOdr9C4RocLZ5.jpg);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 6px 6px 30px 6px;
+}
+section#imagem2{
+    background-image: url(https://ayine.com.br/wp-content/uploads/2022/03/Miolo-diagonal-O-livro-dos-amigos-site.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 6px 6px 30px 6px;
+}
+section#imagem3{
+    background-image: url(https://dialogosviagenspedagogicas.com.br/wp-content/uploads/2023/06/image-507-1024x512.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 6px 6px 30px 6px;
+
+}
+section.imagem{
+    background-attachment: fixed;
+
+}
+.normal{
+    background-color: black;
+    color: white;
+
+}
+header{
+    background-color: black;
+    padding-top: 50px;
+    color: white;
+    text-align: center;
+}
+
+header > p{
+    padding-bottom: 50px;
+
+}
+a{
+    color: #f2f2f2;
+    text-decoration: none;
+}
+a:hover{
+font-weight: bold;
+}
+footer{
+    background-color: black;
+    color: #f2f2f2;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer > a{
+    color: rgb(255, 255, 255);
+}
+footer > a:hover{
+    font-weight: bold;
+
+}
