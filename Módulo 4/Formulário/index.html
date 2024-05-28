@@ -89,6 +89,7 @@
             <input type="reset" value="Limpar">
         </p>
     </fieldset>
+    --------------------------
 
 
     <h1>Subir arquivo</h1>
@@ -98,6 +99,59 @@
         <input type="submit" value="Enviar">
         <input type="reset" value="Limpar">
     </p>
+    -----------------------------
+
+    <h1>Formulário com Estados</h1>
+    <form action="cadastro.php" method="get">
+
+        <p>
+            <label for="iest">Estado:</label>
+            <select name="estado" id="iest">
+                <optgroup label="Estados disponíveis">
+                    <option value="goias">Goiânia</option>
+                    <option value="Rio de janeiro">Rio de janeiro</option>
+                    <option value="SP" selected>São paulo</option>
+                </optgroup>
+            </select>
+        
+        </p>
+
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+    </form>
+
+    --------------------------
+    <h1>Digite a sua profissão</h1>
+    <p>
+        Sou: <input type="text" name="prof" id="iprof" list="listprof">
+        <datalist id="listprof">
+            <option >Pedreiro</option>
+            <option >Jogador</option>
+            <option>Desenvolvedor</option>
+        </datalist>
+    </p>
+
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </p>
+    --------------------------
+    <h1>Digite sua mensagem <br></h1>
+    <form action="cadastro.php" method="post">
+        <p>Mensagem: <textarea name="" id="" cols="30" rows="10"></textarea>
+    </form>
+
+    </p>
+    --------------------------
+
+
+
+
+
 
 
 
