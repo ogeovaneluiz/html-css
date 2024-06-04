@@ -1,0 +1,33 @@
+@charset "UTF-8";
+*{
+
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+}
+body{
+    font-family: "Montserrat", sans-serif;
+
+}
+h3#impresso{
+    display: none;
+}
+
+main{
+    width: 600px;
+    display: block;
+    margin: auto;
+}
+
+menu>li{
+    display: inline-block;
+    background-color: rgb(93, 30, 151);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+menu{
+    background-color: blueviolet;
+
+}
+h1{
+    text-align: center;
+}
