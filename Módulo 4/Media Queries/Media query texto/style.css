@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+h1{
+    color: rgb(60, 218, 36);
+}
+
+@media(max-width:450px ) {
+    h1{
+        color: red;
+    }
+}
+
+@media (min-width:450px) and (max-width: 780px) {
+    h1{
+        color: orange;
+    }
+}
