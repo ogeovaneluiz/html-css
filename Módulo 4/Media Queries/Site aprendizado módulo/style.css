@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+    background-image: url(Imagens/back-pc.jpg);
+    color: rgb(0, 0, 0);
+    font-family: "Montserrat", sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 20px;
+    background-position: center center;
+    
+
+
+}
+img#tablet{
+    display: none;
+
+
+}
+img#pc{
+    display: block;
+    margin: auto;
+}
+img#celular{
+    display: none;
+
+
+}
+img#tv{
+    display: none;
+}
+img#impressora{
+    display: none;
+}
+
+main{
+    background-color: rgba(255, 255, 255, 0.786);
+    width: 450px;
+    margin: auto;
+    border-radius: 20px;
+}
+h1{
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+/*Celular*/
+@media  (max-width:450px) {
+    body{
+        background-image: url(Imagens/back-phone.jpg);
+    }
+    img#tablet{
+        display: none;
+    
+    }
+    img#pc{
+        display: none;
+    }
+    img#celular{
+        display: block;
+        margin: auto;
+    
+    }
+    img#tv{
+        display: none;
+    }
+    img#impressora{
+        display: none;
+    }
+    
+}
+/*tablet*/
+@media (min-width:450px) and (max-width:1024px) {
+    img#tablet{
+        display: block;
+        margin: auto;
+    
+    }
+    body{
+        background-image: url(Imagens/back-tablet.jpg);
+    }
+    img#pc{
+        display: none;
+    }
+    img#celular{
+        display: none;
+
+    
+    }
+    img#tv{
+        display: none;
+    }
+    img#impressora{
+        display: none;
+    }
+
+}
+
+/*pc*/
+
+@media (min-width:450px) and (max-width:1024px) {
+    img#tablet{
+        display: block;
+        margin: auto;
+    
+    }
+    img#pc{
+        display: none;
+    }
+    img#celular{
+        display: none;
+
+    
+    }
+    img#tv{
+        display: none;
+    }
+    img#impressora{
+        display: none;
+    }
+
+}
+
+@media print{
+    body{
+        color: rgb(144, 0, 0);
+    }
+    
+}
+
+
+
