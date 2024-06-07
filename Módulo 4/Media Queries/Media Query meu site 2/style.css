@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+header{
+    background-color: rgb(187, 187, 187);
+    padding: 10px;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+    background-color: rgb(218, 218, 218);
+    width: 100vw; /* 100% da largura da viewport */
+    height: 100vh;
+}
+h1{
+    text-align: center;
+}
+menu{
+    display: block;
+}
+menu > ul > li > a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+    background-color: rgb(92, 92, 92);
+    border-top: 2px solid rgb(187, 187, 187);
+    text-align: center;
+
+}
+menu > ul > li > a:hover{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+    background-color: rgb(162, 29, 29);
+    border-top: 2px solid rgb(187, 187, 187);
+    text-align: center;
+
+}
+
+article{
+    width: 80vw;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+article > p{
+    text-align: left;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+
+

@@ -2,6 +2,7 @@
 *{
 
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 }
 body{
     font-family: "Montserrat", sans-serif;
@@ -15,6 +16,11 @@ main{
     width: 600px;
     display: block;
     margin: auto;
+    background-color: rgb(255, 250, 215);
+    padding: 20px;
+    border-radius: 20px;
+
+
 }
 
 menu>li{
