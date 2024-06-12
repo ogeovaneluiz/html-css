@@ -1,18 +1,68 @@
 @charset "UTF-8";
 
+
 *{
     margin: 0px;
     padding: 0px;
 }
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 body{
-    background-color: rgb(234, 0, 0);
+    background-color: rgb(0, 162, 255);
+    color:rgb(0, 162, 255);
+    font-family: "Montserrat", sans-serif;
+    width: 100vw;
+    height: 100vh;
 
 }
 
 main{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+section#login{
     background-color: white;
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;    
+    overflow: hidden;
+    transform: translate(-50%, -50%);
     border-radius: 20px;
+    transition: width 0.3s, heith 0.3s;
+}
+
+section#login > div#foto{
+    background-image: url(imagens/02.jpg);
+    width: 300px;
+    height: 100px;
+    background-size: cover;
+}
+
+div#formulario{
+    text-align: center;
+    padding-top: 20px;
+
+
+}
+form > input[type=submit]{
+    margin-top: 20px;
+    display: block;
+    background-color:rgb(0, 162, 255);
+    border: none;
+    width: 70%;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: auto;
+
+}
+form > input[type=submit]:hover{
+    background-color:rgb(9, 78, 119); 
+
 }
